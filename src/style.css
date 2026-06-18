@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -69,7 +71,6 @@ body {
 .nav_item + .nav_item {
   margin-left: 20px;
 }
-
 
 .nav_link.is-active {
   color: var(--moyo-color);
